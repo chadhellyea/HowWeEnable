@@ -36,7 +36,7 @@ plugins:
   - jekyll-feed
   - jekyll-archives
 
-  sass:
+sass:
   style: compressed
 
 collections:
@@ -97,11 +97,13 @@ defaults:
       permalink: /version/:path
   -
     scope:
+      path: "" # an empty string here means all files in the project
       type: "posts"
     values:
       permalink: /blog/:title/
   -
     scope:
+      path: "" # an empty string here means all files in the project
       type: redirects
     values:
       layout: redirect

@@ -1,5 +1,9 @@
 {
     "default": true,
     "MD003": false,
+<<<<<<< HEAD
+=======
+    "MD013": false,
+>>>>>>> 047876c9b4d836b861e0b0d9d71c8e72b82149b3
     "MD033": false
 }
